@@ -1,0 +1,12 @@
+{
+    "name": "@concert-app/server",
+    "version": "1.0.0",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "rails server",
+        "build": "rails assets:precompile",
+        "start": "rails server",
+        "install": "bundle install"
+    }   
+}
